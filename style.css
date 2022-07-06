@@ -25,18 +25,44 @@ h1 {
   margin: 0;
 }
 /* Header section Start */
+
 .header_section {
+
   background-image: url("donation2.jpg");
+
   background-position: center;
+
   background-repeat: no-repeat;
+
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  filter: blur(.2px);
+
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+}
+
+.text{
+
+  position: absolute;
+
+  top: 50%;
+
+  left:50%;
+
+  transform: translate(-50%,-50%);
+
   color: #fff;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
 }
 
 .snd_section {
