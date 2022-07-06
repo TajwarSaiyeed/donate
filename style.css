@@ -130,14 +130,81 @@ form input {
 }
 #dnt_cl_fst {
   background-color: #30cff7a1;
+  box-shadow: 5px 5px 20px 3px #30cff7;
 }
 #dnt_cl_snd {
   background-color: #937ae2a5;
+  box-shadow: 5px 5px 20px 3px #937ae2;
 }
 #dnt_cl_trd {
   background-color: #de719ea3;
+  box-shadow: 5px 5px 20px 3px #de719e;
 }
 
+.dnt_flood_areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dnt_div {
+  width: 95%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dnt_img {
+  width: 30%;
+  height: 70%;
+  margin: 2%;
+  border: 3px solid #94c5d1;
+  box-shadow: 5px 5px 25px 3px #94c5d1;
+  border-radius: 15px;
+}
+.dnt_div .dnt_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.dnt_up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#dnt_up_frm {
+  width: 80%;
+  padding: 30px;
+  border-radius: 15px;
+  background: #61aabd;
+  color: #fff;
+}
+#dnt_up_frm h1 {
+  font-size: 35px;
+}
+#dnt_up_frm form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dnt_up_frm form input[type="email"] {
+  width: 50%;
+  height: 45px;
+  padding-left: 20px;
+  text-align: left;
+  background: #20697b;
+  border: none;
+  border-radius: 7px;
+  color: #339db7;
+  font-size: 20px;
+}
 footer {
   text-align: center;
   background: #656d6e;
@@ -145,40 +212,3 @@ footer {
   margin: 0;
   padding: 10px;
 }
-.dnt_up{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-#dnt_up_frm{
-  width: 80%;
-  padding: 30px;
-  border-radius: 15px;
-  background: #61aabd;
-  color: #fff;
-}
-#dnt_up_frm h1{
-  font-size: 35px;
-}
-#dnt_up_frm form{
-  width: 100%;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-#dnt_up_frm form input[type="email"]{
-  width: 50%;
-  height:45px;
-  padding-left: 20px;
-  text-align: left;
-  background: #20697b;
-  border: none;
-  border-radius: 7px;
-  color:#339db7;
-  font-size: 20px;
-}
-
-
-
