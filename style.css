@@ -22,17 +22,21 @@ section {
   min-height: 100vh;
 }
 h1 {
-  font-size: 26px;
+  font-size: 46px;
+  margin: 0;
 }
-
+/* Header section Start */
 .header_section {
   background-image: url("donation2.jpg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  filter: blur(.2px);
+  color: #fff;
 }
 
 .snd_section {
@@ -174,4 +178,6 @@ footer {
   color:#339db7;
   font-size: 20px;
 }
+
+
 
