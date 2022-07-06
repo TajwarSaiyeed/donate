@@ -91,6 +91,7 @@ form input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .dnt_plan .dnt_card {
   margin: 20px 0;
