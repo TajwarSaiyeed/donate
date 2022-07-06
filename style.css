@@ -34,6 +34,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   filter: blur(.2px);
   color: #fff;
 }
